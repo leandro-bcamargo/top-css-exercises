@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .profile-image {
@@ -27,6 +30,11 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 10px;
+}
+
+.links {
+  margin-left: 0;
 }
 
 button {
@@ -45,4 +53,31 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  padding-left: 0;
+}
+
+.left-links {
+  display: flex;
+  justify-content: left;
+  width: 500px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.right-links {
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+  padding-right: 10px;
+  align-items: center;
+}
+
+.notifications {
+  padding: 10px 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
 }
